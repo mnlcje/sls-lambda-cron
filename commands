@@ -1,0 +1,15 @@
+npm install -g serverless
+
+serverless create -t aws-nodejs -p sls-lambda-cron 
+
+serverless deploy
+
+serverless remove
+
+--To deploy specific lambda function
+serverless deploy -f add
+
+
+Reference
+-------------
+https://medium.com/blogfoster-engineering/running-cron-jobs-on-aws-lambda-with-scheduled-events-e8fe38686e20
